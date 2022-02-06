@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <title>My Portfólio</title>
+  </head>
+
+  <body>
+    <!-- <label for="inputTrocarModo">Trocar modo</label>-->
+    <input type="checkbox" id="inputTrocarModo" class="hidden" />
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <!--Conteúdos do lado esquerdo-->
+          <div class="column column--esquerda">
+            <div class="informacoesContatoPortfolio">
+              <div class="container container--column">
+                <figure class="informacoesContatoPortfolio__imagem">
+                  <img src="assets/img/Vinicius.jpg" alt="foto de hudson" />
+                  <figcaption class="hidden">
+                    Imagem de perfil portfólio
+                  </figcaption>
+                </figure>
+
+                <div class="informacoesContatoPortfolio__descricao">
+                  <h1>Vinicius Leite</h1>
+                  <h2>Desenvolvedor</h2>
+
+                  <ul>
+                    <li>
+                      <a href="malito:exemplo@gmail.com"
+                        >viniciusleitedjmj3@gmail.com</a
+                      >
+                    </li>
+
+                    <li>
+                      <a href="tel:41997117122">(99) 99970-1072</a>
+                    </li>
+
+                    <li>
+                      <a href="#"
+                        >Rua Quinze de Novembro, 1290A, Santo Antônio - Codó -
+                        MA</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="informacoesContatoPortfolio__trocarModo">
+                  <label for="inputTrocarModo">
+                    <span></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- conteúdo do lado direto -->
+          <div class="column column--direita">
+            <div class="informacoesExperienciaPortfolio">
+              <div class="container container--column">
+                <!-- conteúdo Perfil-->
+                <section class="informacoesExperienciaPortfolio__perfil">
+                  <h2>Perfil Profissional</h2>
+                  <p>
+                    Sou um desenvolvedor Aplicado e responsável que procura ao
+                    máximo cumprir com horários e metas estabelecidas, tenho boa
+                    comunicação e não tenho vergonha de dizer/assumir que não
+                    sei/consigo fazer algo, busco ajuda a quem sabe e estou
+                    sempre disposto a ajudar a outros, pois acredito que isso
+                    contribui para estabelecer melhor conexão com colegas de
+                    trabalho. Atualmente busco por um ambiente que possa me
+                    proporcionar experiência e que me permita desenvolver e
+                    criar novas habilidades.
+                  </p>
+                </section>
+
+                <!-- conteúdos Especialidades -->
+                <section
+                  class="informacoesExperienciaPortfolio__especialidades"
+                >
+                  <h2>Especialidades</h2>
+                  <ul>
+                    <li>
+                      <p>HTML 5</p>
+                    </li>
+                    <li>
+                      <p>CSS 3</p>
+                    </li>
+                    <li>
+                      <p>Bootstrap 5</p>
+                    </li>
+                    <li>
+                      <p>JavaScript</p>
+                    </li>
+                    <li>
+                      <p>Python</p>
+                    </li>
+                    <li>
+                      <p>SQL</p>
+                    </li>
+                  </ul>
+                </section>
+
+                <!-- conteúdos Formação -->
+                <section class="informacoesExperienciaPortfolio__formacao">
+                  <h2>Cursos</h2>
+                  <ul>
+                    <li>
+                      <p>Informática Básica - Petro Master Cursos</p>
+                    </li>
+                    <li>
+                      <p>Maratona do Zero ao Código - Kenzie Academy Brasil</p>
+                    </li>
+                    <li>
+                      <p>HTML5 e CSS3 Módulo 1- Curso em Video</p>
+                    </li>
+                  </ul>
+                </section>
+
+                <!-- conteúdo Experiência -->
+                <section class="informacoesExperienciaPortfolio__experiencia">
+                  <h2>Experiência</h2>
+                  <ul>
+                    <li>
+                      <h3>Balconista</h3>
+                      <strong
+                        >Nome da Empresa Mercado do Pão - Tempo integral</strong
+                      >
+                      <p>
+                        Período do emprego 2018 – Duração 7 mesês Localidade
+                        Ceilândia Sul, Distrito Federal
+                      </p>
+                    </li>
+                    <li>
+                      <h3>
+                        Não possuo experiência na área de desenvolvimento ainda
+                      </h3>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <nav class="redesSociais">
+        <ul class="redesSociais__lista">
+          <li class="redesSociais__lista__item">
+            <a
+              href="https://www.linkedin.com/in/marcos-leite-17aa8414b/"
+              target="_blank"
+            >
+              <img src="./assets/img/linkedin.svg" alt="linkedin" />
+            </a>
+          </li>
+          <li class="redesSociais__lista__item">
+            <a
+              href="https://github.com/LeiteM?tab=repositories"
+              target="_blank"
+            >
+              <img src="./assets/img/github.svg" alt="github" />
+            </a>
+          </li>
+          <li class="redesSociais__lista__item">
+            <a href="https://www.instagram.com/leite69_/" target="_blank">
+              <img src="./assets/img/instagram.svg" alt="instagram" />
+            </a>
+          </li>
+          <li class="redesSociais__lista__item">
+            <a
+              href="https://www.youtube.com/channel/UCGCyVIS757nKK5mlHcHVY_Q/videos"
+              target="_blank"
+            >
+              <img src="./assets/img/youtube.svg" alt="youtube" />
+            </a>
+          </li>
+          <li class="redesSociais__lista__item">
+            <a href="https://www.facebook.com/MVTL7" target="_blank">
+              <img src="./assets/img/facebook.svg" alt="facebook" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
