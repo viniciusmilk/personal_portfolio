@@ -277,6 +277,11 @@ footer {
 .redesSociais__lista__item {
   display: inline-block;
   margin: 0 5px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.redesSociais__lista__item:hover {
+  background-color: #2d3846;
 }
 .redesSociais__lista__item a {
 }
