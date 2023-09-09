@@ -269,6 +269,12 @@ footer {
   padding: 30px;
   transition: all ease-in-out 0.4s;
 }
+footer p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: white;
+}
 .redesSociais {
 }
 .redesSociais__lista {
