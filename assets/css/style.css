@@ -245,22 +245,25 @@ section ul li strong {
 .informacoesExperienciaPortfolio__formacao ul li p {
 }
 
-.informacoesExperienciaPortfolio__experiencia {
+.informacoesExperienciaPortfolio__projetos {
   margin-bottom: 0;
   border: none;
 }
 
-.informacoesExperienciaPortfolio__experiencia h2 {
+.informacoesExperienciaPortfolio__projetos h2 {
 }
-.informacoesExperienciaPortfolio__experiencia ul {
+.informacoesExperienciaPortfolio__projetos ul {
 }
-.informacoesExperienciaPortfolio__experiencia ul li {
+.informacoesExperienciaPortfolio__projetos ul li {
 }
-.informacoesExperienciaPortfolio__experiencia ul li h3 {
+.informacoesExperienciaPortfolio__projetos ul li a {
+  color: inherit;
 }
-.informacoesExperienciaPortfolio__experiencia ul li strong {
+.informacoesExperienciaPortfolio__projetos ul li a h3 {
 }
-.informacoesExperienciaPortfolio__experiencia ul li p {
+.informacoesExperienciaPortfolio__projetos ul li strong {
+}
+.informacoesExperienciaPortfolio__projetos ul li p {
 }
 
 /* FOOTER */
